@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    <body>
+        <div class="navbar">
+            <div class="logo">
+                <div class="bars" id="bars">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <img src="" alt="">
+            </div>
+            <ul id="menu" class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Service</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <!-- hero -->
+        <div class="hero">
+  <!--          <h1 class="bgtext">Developer</h1>      -->
+            <div class="hero-content">  
+                <h1>Web Developer </h1>
+                <p>Francis Mujakachi</p><br>
+                <button>Contact Us</button>
+            </div>
+            <div class="hero-img">
+                <img src="images/1.jpg">
+            </div>
+        </div>
+        <!--icon box  -->
+        <div class="iconbox">
+            <p><a href="https://www.linkedin.com/in/francis-mujakachi-949415134?trk=contact-info">LinkedIn</a></p>
+            <p><a href="https://www.facebook.com/fmujakachi">Facebook</a></p> 
+            <p><a href="https://wa.link/dbmkhi">Whatsapp</a></p>
+        </div>
+        <!-- About section -->
+        <div class="about" id="about">
+        <div class="section-header">
+            <h2>About US</h2>
+            <p>Am a Html, Css and Javascript developer with knowledge of Bootstrap 5.</p>
+
+        </div>
+        </div>
+       
+ <div class="row">
+            <div class="about-img">
+                <img src="images/2.png">
+            </div>
+            <div class="right-text">
+                <h3>UI/UX Designer &amp: Web Developer</h3>
+                <p class="font-italic color-white">FrontEnd</p>
+                        <div class="row">
+                <div class="col-lg-6">
+                    <ul>
+                        <li><i class="icofont-rounded-right"></i><strong>Website:</strong>www.francism.com</li>
+                        <li><i class="icofont-rounded-right"></i><strong>Phone:</strong>+27648584297</li>
+                        <li><i class="icofont-rounded-right"></i><strong>Email:</strong>fmujakachi@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <ul>
+                        <li><i class="icofont-rounded-right"></i><strong>Degree:</strong>Bachelor's</li>
+                        <li><i class="icofont-rounded-right"></i><strong>Freelance:</strong>Available</li>
+                    </ul>
+                </div>
+            </div>
+    
+            </div>
+            <!-- skills section -->
+            <section id="skills" class="skills">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Skills</h2>
+                        <p>lorem ipsim</p>
+                    </div>
+                    <div class="skills-content">
+                        <div class="progress">
+                           <span class="skill">HTML<i class="val">100%</i></span> 
+                           <div class="progress-bar-wrap">
+                               <div class="progress-bar" role="progressbar" area-valuenow="100" area-valuemin="0" area-valuemax="100">
+                                   
+                               </div>
+                               
+                           </div>
+                           <div class="progress">
+                           <span class="skill">CSS<i class="val">98%</i></span> 
+                           <div class="progress-bar-wrap">
+                               <div class="progress-bar" role="progressbar" area-valuenow="98" area-valuemin="0" area-valuemax="100">
+                                   
+                               </div>
+                           </div>
+                           <div class="progress">
+                           <span class="skill">JAVASCRIPT<i class="val">80%</i></span> 
+                           <div class="progress-bar-wrap">
+                               <div class="progress-bar" role="progressbar" area-valuenow="80" area-valuemin="0" area-valuemax="100">
+                                   
+                               </div>
+                           </div>
+                        </div>                    
+                     </div>
+                </div>
+            </section>
+   
+        <!-- footer -->
+      <section class="footer">
+          <p>Copyright © 2024</p>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script>
+            let menu = document.querySelector("#menu")
+            let bars = document.querySelector("#bars")
+            
+            bars.addEventListener("click", function() {
+                menu.classList.toggle("mobilemenu")
+            })
+            </script>        <script>src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"</script>
+    </body>
+   </html>
